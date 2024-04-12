@@ -7,6 +7,10 @@
 <h3>Descrição do Projeto</h3>
 O aplicativo "Easy Way" visa resolver os problemas enfrentados pelos motoristas de vans em relação ao gerenciamento de rotas e tempo de viagem. Muitas vezes, os motoristas enfrentam dificuldades quando os usuários não comunicam previamente sua intenção de utilizar o serviço, resultando em perda de tempo e gastos extras. Além disso, quando os usuários comunicam, ainda há a necessidade de ajustar as rotas, o que também consome tempo. Portanto, o VanConnect é uma solução que visa otimizar esses processos, garantindo uma experiência mais eficiente para motoristas e passageiros.
 
+<h3>Tecnologias Utilizadas</h3>
+<h4>AppInventor</h4>
+<img width="250" src="imagens/Appinventor.png">
+
 <h2>Projeto 1: 2º Semestre de 2022</h2>
 <h3>Parceiro Acadêmico</h3>
 <img width="250" src="https://www.iacit.com.br/imgs/meta-image.jpg">
