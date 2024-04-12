@@ -1,8 +1,9 @@
 <h1>Pedro Lucas dos Santos Rodrigues</h1>
 
 <h2>Projeto 1: 2º Semestre de 2020</h2>
-<H3 align="center"> Easy Way </H3>
-<H4 align="center"> Interno - FATEC </H4>
+<H3> Easy Way </H3>
+<H4> Interno - FATEC </H4>
+
 
 <h2>Projeto 1: 2º Semestre de 2022</h2>
 <h3>Parceiro Acadêmico</h3>
