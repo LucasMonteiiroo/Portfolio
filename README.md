@@ -9,7 +9,9 @@ O aplicativo "Easy Way" visa resolver os problemas enfrentados pelos motoristas 
 
 <h3>Tecnologias Utilizadas</h3>
 <h4>AppInventor</h4>
-<img width="250" src="imagens/Appinventor.png">
+<img width="250" src="imagens/AppInventor.png">
+
+O App Inventor é uma ferramenta de desenvolvimento de aplicativos para Android criada pelo Google e agora mantida pelo MIT. Ele permite que pessoas sem conhecimento avançado em programação criem aplicativos móveis usando uma interface gráfica intuitiva de arrastar e soltar, tornando o desenvolvimento de aplicativos mais acessível para uma variedade de usuários.
 
 <h2>Projeto 1: 2º Semestre de 2022</h2>
 <h3>Parceiro Acadêmico</h3>
