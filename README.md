@@ -3,7 +3,7 @@
 <h2>Projeto 1: 2º Semestre de 2020</h2>
 <H3> Easy Way </H3>
 <H4> Interno - FATEC </H4>
-
+<img width="250" src="[https://www.iacit.com.br/imgs/meta-image.jpg](https://github.com/Pedrolucasrd/Portfolio/blob/main/imagens/Quadrados_Pretos_e_Brancos_Industrial_Logotipo.png">
 
 <h2>Projeto 1: 2º Semestre de 2022</h2>
 <h3>Parceiro Acadêmico</h3>
