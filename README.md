@@ -5,7 +5,7 @@
 <H4> Interno - FATEC </H4>
 <img width="250" src="imagens/Quadrados_Pretos_e_Brancos_Industrial_Logotipo.png">
 <h3>Descrição do Projeto</h3>
-O aplicativo "VanConnect" visa resolver os problemas enfrentados pelos motoristas de vans em relação ao gerenciamento de rotas e tempo de viagem. Muitas vezes, os motoristas enfrentam dificuldades quando os usuários não comunicam previamente sua intenção de utilizar o serviço, resultando em perda de tempo e gastos extras. Além disso, quando os usuários comunicam, ainda há a necessidade de ajustar as rotas, o que também consome tempo. Portanto, o VanConnect é uma solução que visa otimizar esses processos, garantindo uma experiência mais eficiente para motoristas e passageiros.
+O aplicativo "Easy Way" visa resolver os problemas enfrentados pelos motoristas de vans em relação ao gerenciamento de rotas e tempo de viagem. Muitas vezes, os motoristas enfrentam dificuldades quando os usuários não comunicam previamente sua intenção de utilizar o serviço, resultando em perda de tempo e gastos extras. Além disso, quando os usuários comunicam, ainda há a necessidade de ajustar as rotas, o que também consome tempo. Portanto, o VanConnect é uma solução que visa otimizar esses processos, garantindo uma experiência mais eficiente para motoristas e passageiros.
 
 <h2>Projeto 1: 2º Semestre de 2022</h2>
 <h3>Parceiro Acadêmico</h3>
