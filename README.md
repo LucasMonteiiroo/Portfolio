@@ -17,6 +17,10 @@ O App Inventor é uma ferramenta de desenvolvimento de aplicativos para Android 
 <img width="250" src="imagens/Firebase.jpg">
 O Firebase é uma plataforma de desenvolvimento de aplicativos oferecida pelo Google, que fornece uma variedade de serviços úteis, como armazenamento em nuvem, autenticação de usuários e banco de dados em tempo real. Ele simplifica o desenvolvimento de aplicativos, permitindo que os desenvolvedores se concentrem na lógica do aplicativo, enquanto o Firebase cuida da infraestrutura de back-end.
 
+## Contribuições pessoais
+Por ser o primeiro projeto, dediquei meu tempo aos estudos e trabalhar em conjunto com o time de desenvolvimento da equipe, atuando principalmente no backend utilizando python para tratar os dados e criar endpoints para acesso a eles. Atuei na construção de métodos para expor os dados de maneira clara e organizada.
+
+
 <h2>Projeto 2: 1º Semestre de 2022</h2>
 <H3> Dom Rock </H3>
 <img width="250" src="imagens/dom rock.png">
