@@ -18,14 +18,127 @@ O App Inventor é uma ferramenta de desenvolvimento de aplicativos para Android 
 O Firebase é uma plataforma de desenvolvimento de aplicativos oferecida pelo Google, que fornece uma variedade de serviços úteis, como armazenamento em nuvem, autenticação de usuários e banco de dados em tempo real. Ele simplifica o desenvolvimento de aplicativos, permitindo que os desenvolvedores se concentrem na lógica do aplicativo, enquanto o Firebase cuida da infraestrutura de back-end.
 
 ## Contribuições pessoais
-Por ser o primeiro projeto, dediquei meu tempo aos estudos e trabalhar em conjunto com o time de desenvolvimento da equipe, atuando principalmente no backend utilizando python para tratar os dados e criar endpoints para acesso a eles. Atuei na construção de métodos para expor os dados de maneira clara e organizada.
-
+Por ser o primeiro projeto, dediquei meu tempo aos estudos e trabalhar em conjunto com o time de desenvolvimento da equipe, atuando principalmente na parte logica o AppInventor para construir tanto a interface grafica quanto suas funcionalidades. Atuei na construção de métodos para expor os dados de maneira clara e organizada.
 
 <h2>Projeto 2: 1º Semestre de 2022</h2>
-<H3> Dom Rock </H3>
-<img width="250" src="imagens/dom rock.png">
 
-<h2>Projeto 1: 2º Semestre de 2022</h2>
+### Empresa parceira  
+
+<p align="center">
+    <b>Dom Rock</b>
+</br>
+    <img src="https://github.com/alantrs/Bertoti/blob/efd7a4e3055f78276feb65f55b0702623e0f2636/metodologia/Imagens/domrock2.png" alt="Logo dom rock">
+</p>
+
+
+## Descrição do projeto
+
+Este projeto visa gerenciar a ativação de clientes na plataforma Dom Rock.
+
+A solução proposta concentra-se na entrada de dados, incluindo parâmetros e variáveis específicas de cada cliente, para efetuar a alocação adequada de recursos na plataforma. A abordagem inclui a estimativa de consumo de recursos, considerando fatores como o volume de dados do cliente e o número de usuários. Adicionalmente, a solução é projetada para gerar relatórios e consultas. 
+
+## Tecnologias utilizadas
+
+- **Java**: Linguagem orientada a objetos, foi escolhida para o desenvolvimento do back-end devido à familiaridade prévia da equipe, ampla utilização no mercado e extensa documentação, facilitando a implementação do projeto.
+
+- **PostgreSQL**: PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto que é amplamente utilizado em aplicações empresariais e científicas, devido à sua confiabilidade, escalabilidade e recursos avançados. Além disso, o PostgreSQL é compatível com muitas linguagens de programação, incluindo Java, que foi usada neste projeto.
+
+## Contribuições pessoais
+
+Fui o administrador do banco de dados da equipe. Desenvolvi a modelagem de dados e a criação da base de dados por completo. Ajudei a equipe de backend sendo solicitado por melhorias na distribuição dos dados promovendo a maior facilidade para manipulação dos mesmos.
+<br>
+    <details>
+<summary><b>Modelagem do banco de dados</b></summary>
+<br>
+        
+Nesse projeto, o objetivo da modelagem de dados foi representar os dados inseridos pelo cliente e como seria distribuido na nossa base. Utilizei o Modelo Entidade-Relacionamento (MER) como uma representação visual para entender a distribuição das tabelas com seus atributos e relacionamento entre elas.
+
+![Modelagem do banco de dados](https://github.com/alantrs/Bertoti/blob/778fd69f6e9fecddd2342af75295ff9542562f1e/metodologia/Imagens/modelagem-domrock.jpeg)
+</details>
+
+<details>
+      <summary><b>Implementação física do banco de dados</b></summary>
+      <br>
+    A implementação física é uma etapa fundamental na modelagem de dados, pois envolve a tradução do modelo conceitual em uma estrutura de dados real e eficiente para armazenar e processar os dados em um sistema de banco de dados. Ela é importante para garantir a eficiência, a integridade, a segurança e o desempenho do banco de dados, bem como sua escalabilidade e facilidade de manutenção.
+
+    ```SQL
+    CREATE TABLE public.produto
+    (
+        solucao character varying COLLATE pg_catalog."default" NOT NULL,
+        nome_produto character varying COLLATE pg_catalog."default" NOT NULL,
+        id_produto serial NOT NULL,
+        CONSTRAINT produto_pkey PRIMARY KEY (id_produto),
+        CONSTRAINT produto_nome_produto_key UNIQUE (nome_produto)
+    
+    )
+    
+    CREATE TABLE public.funcionalidade
+    (
+        id_funcionalidade serial NOT NULL,
+        nome_funcionalidade character varying COLLATE pg_catalog."default" NOT NULL,
+        CONSTRAINT funcionalidade_pkey PRIMARY KEY (id_funcionalidade),
+        CONSTRAINT funcionalidade_nome_funcionalidade_key UNIQUE (nome_funcionalidade)
+    
+    )
+    	
+    CREATE TABLE public.core
+    (
+        id_core serial NOT NULL,
+        nome_core character varying COLLATE pg_catalog."default" NOT NULL,
+        
+        CONSTRAINT core_pkey PRIMARY KEY (id_core),
+        CONSTRAINT core_nome_core_unique UNIQUE (nome_core)
+    
+    )
+    ```
+    
+ </details>
+
+## Aprendizados efetivos
+
+Aprendi a base para criar um banco de dados. Como iniciar uma modelagem de dados, definir cardinalidades e tranformar o modelo conceitual em script SQL. Aprendi alguns comandos básicos para trabalhar com versionamento de código com Git.
+
+### Hard Skills
+
+<details>
+  <summary><b>Recursos básicos de Banco de dados: sei fazer com autonomia</b></summary>
+    <br>
+  <ul>
+    <li>Estrutura do banco, distribuição das tabelas</li>
+    <Li>Modelo conceitual, Modelo lógico e Modelo físico</Li>
+    <Li>Criar script</Li>
+    <Li>Realizar querys simples</Li>
+  </ul>
+ </details>
+
+ <details>
+  <summary><b>Git: sei fazer com autonomia</b></summary>
+     <br>
+  <ul>
+    <li>Comandos básicos: git add, git commit, git pull, git push</li>
+    <Li>Criar branches</Li>
+  </ul>
+ </details>
+
+### Soft Skills
+
+<details>
+  <summary><b>Adaptação</b></summary>
+  <br>
+  <ul>
+    <li>Lidar com uma equipe totalmente nova exigiu rápida adaptação e flexibilidade para nos ajustarmos ao ambiente e às dinâmicas de trabalho. A capacidade de ser flexível e adaptável foi essencial para responder de forma eficaz às mudanças e desafios que surgiram, permitindo-nos manter o foco no objetivo final e atender às necessidades do cliente de maneira ágil e eficiente</li>
+  </ul>
+</details> 
+<details>
+  <summary><b>Aprendizado contínuo</b></summary>
+  <br>
+  <ul>
+    <li>A partir desse semetre foi introduzido a tecnologia de banco de dados para a aplicação a ser desenvolvida, e foi necessário estudar para aprender sobre SQL e sobre PostgreSQL.</li>
+  </ul>
+</details> 
+<hr>
+
+<h2>Projeto 3: 2º Semestre de 2022</h2>
 <h3>Parceiro Acadêmico</h3>
 <img width="250" src="https://www.iacit.com.br/imgs/meta-image.jpg">
 
@@ -197,3 +310,182 @@ Em resumo, o projeto consiste em uma solução completa que engloba o desenvolvi
   <li>Manipulação de Dados JSON: Aprender a trabalhar com dados JSON (JavaScript Object Notation), incluindo a serialização e desserialização de dados, e a interação com APIs que retornam dados nesse formato.</li>
   </ul>
 </details>
+
+# <h2>Projeto 2: 1º Semestre de 2023</h2>
+
+### Empresa parceira
+
+<p align="center">
+    <b>Embraer</b> 
+    <img src="https://github.com/alantrs/Bertoti/blob/09db3eee9ca94737bc0fc52ef7fc1313ae6cdf71/metodologia/Imagens/embraer.png" alt="Logo embraer">
+</p>
+
+## Descrição do projeto
+
+Sistema de gerenciamento de equipamentos de voo e versões de software instalados na aeronave para pilotos freelancers.
+
+A solução foi um sistema que armazenava todas as regras de composição de itens em um banco de dados. Quando um número de chassi era consultado, o sistema recuperava as regras de composição correspondentes desse chassi no banco de dados. Em seguida, os itens compatíveis com o chassi consultado eram exibidos na tela para o usuário.
+
+## Tecnologias utilizadas
+
+- **Java e Spring boot**: A linguagem Java foi utilizada para desenvolver todo o back-end da aplicação, utilizando o framework Spring Boot. O Spring Boot é uma estrutura que permite aos desenvolvedores criar rapidamente aplicativos web em Java, fornecendo um conjunto de ferramentas e bibliotecas que tornam a construção de aplicativos mais rápida e fácil.
+
+- **Vue.js**: Vue.js é um framework de desenvolvimento web de código aberto e progressivo. Sua arquitetura centrada em componentes oferece uma abordagem modular que facilita a construção eficiente de aplicativos complexos. Utilizamos Vue.js para o frontend da aplicação.
+
+- **Autonomous Database Oracle**: O Oracle Autonomous Database é uma solução de banco de dados em nuvem que se destaca pela automação completa, autogerenciamento e uso de machine learning. Elimina tarefas manuais, otimiza o desempenho, garante segurança e oferece escalabilidade automática, proporcionando eficiência e economia de custos. Utilizamos o autonomous database para armazenar nossa lógica de negócio.
+  
+- **Ambiente Cloud Oracle**: O ambiente Cloud Oracle oferece uma infraestrutura altamente escalável e eficiente para hospedar aplicativos empresariais. Utilizamos para hospedar nossa aplicação.
+
+## Contribuições pessoais
+
+Nesse projeto fui novamente o DBA da equipe. Desenvolvi toda estrutura da base de dados, de forma estratégica para construir um esquema robusto e que comportasse os relacionamentos complexos da melhor forma. Apliquei funções e procedures para tratamento da logica de instalação de itens em uma aeronave. Apliquei o uso de triggers para fins de auditoria para captar eventos. Apliquei o uso de views para visualização de dados.
+<br>
+    <details>
+<summary><b>Modelagem do banco de dados</b></summary>
+<br>
+
+No caso deste projeto, o objetivo da modelagem de dados foi representar os dados de boletins de serviço, itens e chassi. Essa modelagem foi estratégica para facilitar a consulta da lógica interna de instalações de itens em uma aeronave. O objetivo central era estruturar as tabelas de maneira que exitisse uma hierarquia de condições recebidas pela empresa, facilitando assim para o backend tratar e ter códigos mais limpos e de fácil manutenção.
+
+![Modelagem do banco de dados](https://github.com/alantrs/Bertoti/blob/7f11e2e448aaac2afb7da5aab6d272305d2051aa/metodologia/Imagens/diagrama-embraer.jpg)
+</details>
+
+<details>
+<br>
+<summary><b>Funções e procedures</b></summary>
+<br>
+ Essa é uma procedure em PL/SQL que tem como objetivo verificar se determinados itens estão instalados de fábrica em uma aeronave. Ela percorre as tabelas chassi e logica_fabrica e, para cada combinação de chassi e item, utiliza a função verificar_instalacao_fabrica para determinar se o item está instalado.
+A lógica principal está na cláusula MERGE, que realiza operações de atualização e inserção na tabela chassi_item. Se houver uma correspondência entre o chassi e o item na tabela chassi_item, ela atualiza o status de instalação. Se não houver correspondência, insere um novo registro indicando se o item está ou não instalado de fábrica.
+    
+    ```SQL
+    CREATE OR REPLACE PROCEDURE verificar_e_inserir_instalacao_fabrica AS
+      v_chassi chassi.id_chassi%TYPE;
+      v_item logica_fabrica.id_item%TYPE;
+      v_instalado NUMBER;
+    BEGIN
+      FOR r_chassi IN (SELECT id_chassi FROM chassi) LOOP
+        FOR r_item IN (SELECT id_item FROM logica_fabrica) LOOP
+          v_instalado := verificar_instalacao_fabrica(r_chassi.id_chassi, r_item.id_item);
+             MERGE INTO chassi_item ci
+              USING (
+                SELECT r_chassi.id_chassi AS id_chassi, r_item.id_item AS id_item, v_instalado AS instalado
+                FROM dual
+              ) temp
+              ON (
+        ci.id_chassi = temp.id_chassi AND ci.id_item = temp.id_item
+      )
+      WHEN MATCHED THEN
+        UPDATE SET ci.instalado = temp.instalado
+      WHEN NOT MATCHED THEN
+        INSERT (id_chassi, id_item, instalado)
+        VALUES (temp.id_chassi, temp.id_item, temp.instalado);
+        END LOOP;
+      END LOOP;
+    END verificar_e_inserir_instalacao_fabrica;
+    /
+</details>
+
+<details>
+<br>
+<summary><b>Triggers</b></summary>
+Essa trigger foi criada para realizar auditoria na tabela CHASSI_BOLETIM após operações de atualização no campo STATUS. Quando uma atualização ocorre, a trigger gera um novo identificador de auditoria utilizando a sequência SEQ_CHASSI_BOLETIM_AUDIT e registra os dados relevantes na tabela de auditoria CHASSI_BOLETIM_AUDIT. Isso inclui o ID de auditoria, IDs de chassi e boletim, status anterior e novo, além do responsável pela modificação, armazenado na coluna MODIFICADO_POR. Essa abordagem proporciona um histórico detalhado das alterações de status na tabela principal, contribuindo para a transparência e rastreabilidade das modificações realizadas no sistema.
+
+
+    ```SQL
+    CREATE OR REPLACE TRIGGER TRG_AUDIT_CHASSI_BOLETIM
+    AFTER UPDATE OF STATUS ON CHASSI_BOLETIM
+    FOR EACH ROW
+    DECLARE
+    V_ID_AUDITORIA INTEGER;
+    BEGIN
+    -- Gerar um novo ID de auditoria
+    SELECT SEQ_CHASSI_BOLETIM_AUDIT.NEXTVAL INTO V_ID_AUDITORIA FROM DUAL;
+
+    -- Inserir os dados na tabela de auditoria
+    INSERT INTO CHASSI_BOLETIM_AUDIT (ID_AUDITORIA, ID_CHASSI, ID_BOLETIM, STATUS_ANTERIOR, STATUS_NOVO, modificado_por)
+    VALUES (V_ID_AUDITORIA, :OLD.ID_CHASSI, :OLD.ID_BOLETIM, :OLD.STATUS, :NEW.STATUS, :NEW.MODIFICADO_POR);
+    END;
+    /
+    ```
+
+
+</details>
+
+
+<details>
+<br>
+<summary><b>Views</b></summary>
+
+Essa view retorna um caminho hierarquico das lógicas, facilitando o tratamento para o backend, onde é possivel definir uma entrada (buscando a dependencia ou buscando pelo nivel) para recuperar a lógica de aplicação de um determinado item.
+
+    ```SQL
+    -- view que retorna o caminho hierarquico das logicas
+    CREATE OR REPLACE VIEW v_hierarquia AS SELECT id_logica, logica_boletim.id_Item, ITEM.NOME, input1, operacao,  input2, dependencia,  LEVEL AS nivel, 
+    CONNECT_BY_ROOT(ID_logica) AS no_raiz, SYS_CONNECT_BY_PATH(ID_logica, '/') AS caminho_hierarquia
+    FROM Logica_Boletim
+    JOIN item ON logica_boletim.id_item = item.id_item
+    START WITH dependencia IS NULL
+    CONNECT BY PRIOR ID_logica = dependencia;
+
+    ```
+</details>
+
+
+
+
+## Aprendizados efetivos
+
+Este projeto proporcionou a oportunidade de aprendizado sobre tópicos avançados em banco de dados. Durante o desenvolvimento, adquiri habilidades como a criação e execução de funções e procedimentos, o que me permitiu entender melhor a manipulação e gestão de dados.
+Tive a oportunidade de trabalhar com auditoria usando triggers, o que me deu uma visão mais profunda sobre a segurança e integridade dos dados. Além disso, a visualização de dados com views me permitiu entender como apresentar dados de uma maneira mais eficiente e eficaz.
+Aprofundei meus conhecimentos na linguagem PL/SQL da Oracle, o que me permitiu desenvolver soluções mais robustas e eficientes.
+
+
+### Hard Skills
+
+ <details>
+  <summary><b>Funções e Procedures com PL/SQL: sei fazer com ajuda</b></summary>
+     <br>
+  <ul>
+    <li>Estrutura e funcionamento de uma função</li>
+    <li>Estrutura e funcionamento de uma procedure</li>
+    <Li>Como executar funções e procedures</Li>
+  </ul>
+ </details>
+
+  <details>
+  <summary><b>Triggers: sei fazer com autonomia</b></summary>
+     <br>
+  <ul>
+    <li>Estrutura e funcionamento de uma trigger</li>
+    <li>Utilização e vantagens</li>
+  </ul>
+ </details>
+
+   <details>
+  <summary><b>Views: sei fazer com autonomia</b></summary>
+     <br>
+  <ul>
+    <li>Estrutura e funcionamento de uma view</li>
+    <li>Utilização e vantagens</li>
+    <Li>Hierarquia de dados no oracle com connect_by</Li>
+  </ul>
+ </details>
+
+### Soft Skills
+
+<details>
+  <summary><b>Proatividade</b></summary>
+  <br>
+  <ul>
+    <li>Utilizando uma tecnologia nova, o Autonomous Database da Oracle, precisei ser proativo em aprender sobre a ferramenta e descobrir funcionalidades que ajudariam no controle da lógica do projeto. Essa soft skill me permitiu aprender muito e ver minha capacidade de tomar a frente de uma responsabilidade que era fundamental para o funcionamento do projeto.</li>
+  </ul>
+</details> 
+
+<details>
+  <summary><b>Trabalho em equipe</b></summary>
+  <br>
+  <ul>
+    <li>Apresentei pra equipe meus conhecimentos adquiridos na ferramenta de banco de dados para facilitar o desenvolvimento do back-end.</li>
+  </ul>
+</details> 
+
+<hr>
