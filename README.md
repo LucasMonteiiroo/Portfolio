@@ -1,5 +1,7 @@
 <h1>Pedro Lucas dos Santos Rodrigues</h1>
-
+</br>
+<img src="imagens/foto perfil.jpg" width="350">
+</p>
 <h2>Projeto 1: 2º Semestre de 2020</h2>
 <H3> Easy Way </H3>
 <H4> Interno - FATEC </H4>
