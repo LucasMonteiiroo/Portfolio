@@ -22,6 +22,27 @@ O Firebase é uma plataforma de desenvolvimento de aplicativos oferecida pelo Go
 ## Contribuições pessoais
 Por ser o primeiro projeto, dediquei meu tempo aos estudos e trabalhar em conjunto com o time de desenvolvimento da equipe, atuando principalmente na parte logica o AppInventor para construir tanto a interface grafica quanto suas funcionalidades. Atuei na construção de métodos para expor os dados de maneira clara e organizada.
 
+### Hard Skill
+
+ <details>
+  <summary><b>Desenvolvimento de Aplicações Móveis com App Inventor e Integração com Firebase</b></summary>
+     <br>
+  <ul>
+  Atuei no desenvolvimento da lógica e interface gráfica utilizando App Inventor, além de aplicar conceitos de integração com banco de dados em tempo real via Firebase para otimizar a comunicação entre motoristas e usuários.
+  </ul>
+ </details>
+
+ ### Soft Skill
+
+ <details>
+  <summary><b>Trabalho em equipe e aprendizado colaborativo</b></summary>
+     <br>
+  <ul>
+  Colaborei ativamente com a equipe de desenvolvimento, compartilhando aprendizados e contribuindo com a lógica do aplicativo mesmo sem experiência prévia, demonstrando comprometimento, proatividade e rápida adaptação ao ambiente de desenvolvimento.
+  </ul>
+ </details>
+
+
 <h2>Projeto 2: 1º Semestre de 2022</h2>
 
 ### Empresa parceira  
@@ -313,7 +334,27 @@ Em resumo, o projeto consiste em uma solução completa que engloba o desenvolvi
   </ul>
 </details>
 
-# <h2>Projeto 2: 1º Semestre de 2023</h2>
+ ### Hard Skill
+
+ <details>
+  <summary><b>Desenvolvimento Full Stack com Java Spring Boot, PostgreSQL e JavaScript</b></summary>
+     <br>
+  <ul>
+Implementei a lógica de backend com Java Spring Boot, criando endpoints personalizados para manipulação e exposição de dados meteorológicos armazenados no PostgreSQL. No frontend, desenvolvi a interface utilizando JavaScript e Chart.js para visualização dinâmica e interativa dos dados, com filtros avançados por data, localidade e tipo de informação.
+  </ul>
+ </details>
+ 
+ ### Soft Skill
+
+ <details>
+  <summary><b>Autonomia e pensamento analítico</b></summary>
+     <br>
+  <ul>
+ Assumi responsabilidade em diferentes camadas do projeto, exercitando minha capacidade de compreender o fluxo completo da aplicação. Analisei e implementei soluções eficientes para otimizar o acesso, filtragem e exibição de dados, demonstrando iniciativa e visão sistêmica no desenvolvimento da solução.
+  </ul>
+ </details>
+
+# <h2>Projeto 4: 1º Semestre de 2023</h2>
 
 ### Empresa parceira
 
@@ -491,3 +532,162 @@ Aprofundei meus conhecimentos na linguagem PL/SQL da Oracle, o que me permitiu d
 </details> 
 
 <hr>
+
+## Projeto 5  
+**Parceria Acadêmica**  
+
+## Oracle  
+
+<p align="center">  
+<img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/Metodologia/Logos/Oracle_Logo.jpg" width="200" height="80">  
+
+Este projeto teve como proposta desenvolver uma aplicação web para auxiliar na administração de um restaurante, focando na automatização de processos como controle de estoque, fornecedores, desempenho de equipe e avaliação de pratos. A meta principal era oferecer aos gestores uma plataforma prática que facilitasse a visualização de indicadores importantes e a tomada de decisões com base em dados organizados e acessíveis.
+
+A plataforma foi estruturada em módulos distintos, permitindo o monitoramento em tempo real por meio de gráficos, relatórios e painéis interativos. Através da análise das informações armazenadas, os usuários conseguem acessar facilmente métricas sobre vendas, estoque e desempenho individual dos funcionários, tornando a gestão mais eficaz e estratégica.
+
+---
+
+## Tecnologias empregadas 🔧
+
+### **Java + Spring Framework**  
+* A estrutura do back-end foi construída com Java e Spring, adotando o modelo REST para a criação de APIs. Foram desenvolvidos endpoints com operações CRUD para o gerenciamento completo de dados do restaurante, como itens do cardápio, colaboradores e controle de inventário. Essa abordagem favoreceu a escalabilidade da aplicação e permitiu uma comunicação fluida entre o servidor e o front-end.
+
+### **Oracle Autonomous Database**  
+* Os dados do sistema foram armazenados em nuvem por meio do Oracle Autonomous Database, garantindo acessibilidade remota e maior segurança. O uso de autenticação via wallet proporcionou uma camada adicional de proteção, assegurando que apenas usuários autorizados tivessem acesso às informações sensíveis do restaurante.
+
+### **Vue.js**  
+* A camada visual do sistema foi desenvolvida utilizando Vue.js, permitindo a criação de componentes reutilizáveis e organizando melhor a estrutura do front-end. Essa modularização do código facilitou tanto o desenvolvimento quanto a manutenção e expansão da interface do sistema.
+
+---
+
+## Minhas contribuições 🧩
+
+<details>  
+<summary>Criação e personalização de endpoints REST</summary>  
+<br>  
+Fui responsável por desenvolver os principais endpoints do sistema, garantindo que os dados pudessem ser consultados, filtrados e enviados ao front-end de forma eficiente e estruturada. Esses endpoints foram otimizados para suportar grandes volumes de requisições e retornos com milhares de registros, especialmente nos módulos de relatórios e gráficos.  
+</details>
+
+<details>  
+<summary>Tratamento de massa de dados</summary>  
+<br>  
+Implementei estratégias de paginação e filtros avançados para consultas envolvendo grandes conjuntos de dados, assegurando boa performance mesmo em tabelas com alto volume de registros. Além disso, tratei a formatação e agrupamento dos dados para que fossem consumidos diretamente por bibliotecas de gráficos e componentes de tabela no front-end.  
+</details>
+
+<details>  
+<summary>Preparação de dados para visualizações</summary>  
+<br>  
+Estruturei os dados no back-end para alimentar visualizações gráficas e tabelas dinâmicas. As APIs retornavam formatos específicos, prontos para serem usados em dashboards interativos, respeitando filtros por período, categoria, localização e outros parâmetros.  
+</details>
+
+<details>  
+<summary>Documentação e testes</summary>  
+<br>  
+Documentei os endpoints com Swagger e realizei testes com ferramentas como Postman para garantir a consistência das respostas e o correto tratamento de erros em cenários críticos.  
+</details>
+
+---
+
+## Conhecimentos adquiridos 📚  
+
+### **Hard Skills**
+
+<details>  
+<summary>Manipulação de grandes volumes de dados</summary>  
+<br>  
+Aprofundei meus conhecimentos em performance de consultas SQL e na criação de endpoints robustos que lidam com grandes quantidades de registros, mantendo a responsividade do sistema.  
+</details>
+
+<details>  
+<summary>Integração entre back-end e front-end para visualizações</summary>  
+<br>  
+Compreendi melhor como estruturar dados do back-end para serem consumidos com eficiência por gráficos (como Chart.js) e tabelas dinâmicas, melhorando a usabilidade e velocidade do sistema.  
+</details>
+
+### **Soft Skills**
+
+<details>  
+<summary>Organização e trabalho em equipe</summary>  
+<br>  
+Atuei em conjunto com a equipe de front-end e banco de dados, garantindo que os dados fossem disponibilizados de forma adequada para a exibição visual. A colaboração entre áreas foi essencial para alinhar formato, performance e segurança.  
+</details>
+
+---
+
+[Repositório do Projeto](https://github.com/CarcaraTec/Cloud-Kitchen-Oracle)
+
+
+
+
+## Projeto 6
+
+**Empresa parceira**
+
+## Imagem
+
+<p align="center">
+<img src="https://github.com/LucasMonteiiroo/Bertoti/blob/main/Metodologia/Logos/imagem.jpg" width="220" height="140">
+
+O desafio foi criar uma plataforma que analisa e apresenta o sentimento dos clientes com base em avaliações online, integrando tecnologias avançadas para fornecer insights geograficamente contextualizados.
+
+Desenvolvemos uma solução que utiliza inteligência artificial para interpretar avaliações de hotéis, armazenando dados em banco não relacional. A aplicação oferece visualizações dinâmicas, como mapas interativos, gráficos de tendências, cards informativos e um sistema robusto de controle de acesso.
+
+---
+
+## Tecnologias empregadas 🔧
+
+### **Python + Flask**  
+* A estrutura backend foi desenvolvida em Python com o framework Flask, proporcionando uma API leve, flexível e eficiente. Essa API RESTful possibilitou a manipulação e processamento das análises de sentimento, além da comunicação direta com bancos de dados e componentes de machine learning.
+
+### **MongoDB**  
+* Usado para armazenar dados não estruturados das avaliações, o MongoDB oferece uma arquitetura orientada a documentos que facilita o gerenciamento e a consulta sobre dados complexos e variados, essenciais para as análises de sentimento.
+
+### **MySQL**  
+* Responsável pelo armazenamento de dados estruturados, como informações de usuários e permissões, o MySQL assegura integridade e desempenho em consultas relacionadas ao gerenciamento do sistema.
+
+### **Java + Spring Security**  
+* Implementamos a camada de segurança do sistema usando Java com Spring Security, garantindo autenticação e autorização robustas para proteger dados sensíveis e assegurar acessos autorizados somente.
+
+### **Vue.js**  
+* Embora o foco principal tenha sido o backend, Vue.js foi utilizado no front-end para garantir uma interface responsiva e interativa, facilitando a apresentação dos gráficos, mapas e dashboards dinâmicos.
+
+---
+
+## Contribuições pessoais 🎓
+
+### Desenvolvimento de APIs para gráficos interativos  
+* Projetei e implementei endpoints backend que alimentam gráficos dinâmicos e mapas interativos no front-end, garantindo atualização em tempo real e alta performance nas consultas.
+
+### Gerenciamento de grandes volumes de dados  
+* Trabalhei na manipulação e otimização do processamento de grandes massas de avaliações, estruturando queries eficientes e otimizando a interação com o MongoDB para garantir agilidade na entrega dos dados.
+
+### Segurança e autenticação  
+* Atuei na implementação da camada de segurança, configurando autenticação via Spring Security para proteger os dados do sistema e gerenciar perfis de acesso com eficiência.
+
+---
+
+## Aprendizados efetivos 🎓
+
+  ### Soft Skill
+
+ <details>
+  <summary><b>Aprimorei habilidades em desenvolvimento backend com Python e Flask</b></summary>
+     <br>
+  <ul>
+integração de bancos NoSQL e SQL, além de aprofundar conhecimentos em segurança de aplicações com Spring Security.
+  </ul>
+ </details>
+
+   ### Soft Skill
+
+ <details>
+  <summary><b>resiliência</b></summary>
+     <br>
+  <ul>
+ capacidade de adaptação ao lidar com desafios técnicos complexos, trabalhando em equipe e mantendo foco em entregar soluções seguras e eficientes.
+  </ul>
+ </details>
+---
+
+[GitHub](https://github.com/CarcaraTec/Cloud-Kitchen-Oracle)
+
